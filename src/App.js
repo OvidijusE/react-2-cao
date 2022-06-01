@@ -4,9 +4,9 @@ import HeaderTitle from './components/Header/HeaderTitle';
 import PortfolioText from './components/PortolioText/Porfoliotext';
 import PortfolioTitle from './components/PortolioText/PortfolioTitle';
 import HeaderButton from './components/UI/Button';
-import img1 from './assets/forest.jpg';
-import img2 from './assets/girl-in-field.jpg';
-import Card from './components/MainCards/Card';
+// import img1 from './assets/forest.jpg';
+// import img2 from './assets/girl-in-field.jpg';
+import { Card, Card2 } from './components/MainCards/Card';
 
 function App() {
   return (
@@ -21,14 +21,9 @@ function App() {
           <PortfolioTitle title='Portfolio' />
           <PortfolioText text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium ex quasi expedita odio eius totam tempore laborum voluptates repellendus?' />
         </div>
-        <div className='portfolio-cards'>
-          <Card image={img1} text='Lorem, ipsum.' />
-          <Card image={img1} text='Lorem, ipsum.' />
-          <Card image={img1} text='Lorem, ipsum.' />
-          <Card image={img2} text='Dolor sit.' />
-          <Card image={img2} text='Dolor sit.' />
-          <Card image={img2} text='Dolor sit.' />
-        </div>
+
+        <Card />
+        <Card2 />
       </main>
     </div>
   );
