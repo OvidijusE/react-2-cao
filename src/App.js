@@ -6,7 +6,7 @@ import PortfolioTitle from './components/PortolioText/PortfolioTitle';
 import HeaderButton from './components/UI/Button';
 // import img1 from './assets/forest.jpg';
 // import img2 from './assets/girl-in-field.jpg';
-import { Card, Card2 } from './components/MainCards/Card';
+import { Card } from './components/MainCards/Card';
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
         </div>
 
         <Card />
-        <Card2 />
       </main>
     </div>
   );

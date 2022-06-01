@@ -17,23 +17,21 @@ const cardData = [
     image: img1,
     text: 'Lorem ipsum',
   },
-];
-
-const card2Data = [
   {
     id: 4,
-    image2: img2,
+    image: img2,
     text: 'Dolor sit.',
   },
   {
     id: 5,
-    image2: img2,
+    image: img2,
     text: 'Dolor sit.',
   },
   {
     id: 6,
-    image2: img2,
+    image: img2,
     text: 'Dolor sit.',
   },
 ];
-export { cardData, card2Data };
+
+export { cardData };

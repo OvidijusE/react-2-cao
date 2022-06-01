@@ -1,4 +1,4 @@
-import { cardData, card2Data } from '../../Data';
+import { cardData } from '../../Data';
 
 function Card() {
   return (
@@ -13,17 +13,4 @@ function Card() {
   );
 }
 
-function Card2() {
-  return (
-    <div className='portfolio-cards'>
-      {card2Data.map((cObj) => (
-        <div className='card'>
-          <img key={cObj.id} className='portfolio-image' src={cObj.image2} alt='portfolio-pic' />
-          <div className='image-text'>{cObj.text}</div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-export { Card, Card2 };
+export { Card };
